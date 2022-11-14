@@ -78,7 +78,7 @@ button:hover {
   text-decoration: none;
 }
 
-.neighbourhoods,
+.neighbourhoods:hover,
 .transport:hover,
 .whats-on:hover {
   color: white;
