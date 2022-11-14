@@ -3,5 +3,5 @@ function handleSubmit(event) {
   alert("Thank you for subscribing in our newletter! 🏛");
 }
 
-const submitButton = document.querySelector("#submit");
-submitButton.addEventListener("submit", handleSubmit);
+let submitButton = document.querySelector("#submit");
+submitButton.addEventListener("click", handleSubmit);
