@@ -1,0 +1,144 @@
+body {
+  font-family: "Jura", sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h5 {
+  font-weight: 500;
+  text-align: center;
+}
+
+h5 a {
+  color: white;
+  text-decoration: none;
+}
+
+h5:hover a {
+  color: white;
+  font-weight: 900;
+}
+
+form {
+  display: inline;
+  float: inline-start;
+}
+
+input {
+  color: grey;
+  border: solid 2px white;
+  border-radius: 2px;
+  font-size: 13px;
+  padding: 3px;
+  width: fit-content;
+}
+
+button {
+  background-color: white;
+  border: solid 2px white;
+  border-radius: 2px;
+  font-size: 13px;
+  padding: 3px;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: black;
+  border: solid 2px white;
+  color: white;
+}
+
+.banner-top,
+.banner-bottom {
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  height: 50px;
+  padding: 10px;
+}
+
+.banner-top {
+  text-align: right;
+}
+
+.banner-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.neighbourhoods,
+.transport,
+.whats-on {
+  padding: 10px;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.neighbourhoods,
+.transport:hover,
+.whats-on:hover {
+  color: white;
+  font-weight: 900;
+}
+
+.container {
+  border: solid 1px black;
+  border-radius: 4px;
+  height: 90%;
+  margin: 50px auto;
+  padding: 15px;
+}
+
+.dot {
+  color: rgb(12, 12, 160);
+  font-size: 120px;
+}
+
+.description {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.info {
+  color: black;
+}
+
+.info:hover {
+  color: rgb(12, 12, 160);
+  font-weight: 900;
+}
+
+.newsletter,
+.contact {
+  display: inline;
+  border-radius: 2px;
+}
+
+.newsletter {
+  text-align: left;
+}
+
+.contact {
+  float: right;
+}
+
+.contact-title {
+  margin-right: 8px;
+}
+
+.contact-icons {
+  display: inline;
+}
+
+.facebook,
+.instagram,
+.twitter {
+  width: 30px;
+  padding: 3px;
+  float: right;
+  background-color: white;
+}
